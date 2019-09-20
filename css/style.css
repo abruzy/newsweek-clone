@@ -52,17 +52,13 @@ svg {
   fill: #fff;
 }
 
-header nav ul li  a {
-  font-size: 1.1rem;
-}
-
-header nav ul li a:hover {
-  color: #f42;
-}
-
 footer ul li a {
   font-size: 0.9rem;
   font-weight: normal;
+}
+
+header nav ul li a {
+  font-size: 1.1rem;
 }
 
 .link-container a {
@@ -107,6 +103,10 @@ footer ul li a {
 
 .news-categories h2 a {
   color: #f72210;
+}
+
+header nav ul li a:hover {
+  color: #f42;
 }
 
 .most-read a:hover {
