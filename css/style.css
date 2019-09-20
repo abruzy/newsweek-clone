@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
 body {
   background-color: #f4f5f6;
 }
@@ -35,20 +42,22 @@ header {
   border-bottom: 2px solid #f4f5f6;
 }
 
-header > .row {
+header .row {
   background-color: #f72210;
-  margin-right: 0;
-  margin-left: 0;
+  margin: 0;
   padding: 15px 0 15px 30px;
 }
 
-header .col {
-  padding-right: 0;
-  padding-left: 0;
+svg {
+  fill: #fff;
 }
 
-header > nav a {
+header nav ul li  a {
   font-size: 1.1rem;
+}
+
+header nav ul li a:hover {
+  color: #f42;
 }
 
 footer ul li a {
@@ -100,7 +109,7 @@ footer ul li a {
   color: #f72210;
 }
 
-.most-read > a:hover {
+.most-read a:hover {
   color: #555;
   text-decoration: none;
 }
@@ -116,7 +125,7 @@ footer ul li a {
   border-radius: 0;
 }
 
-header > nav {
+header nav {
   max-width: 95%;
 }
 
